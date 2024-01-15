@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <title>Document</title>
+</head>
+<body class="bg-zinc-900 text-zinc-100">
+    
+    <div class="flex flex-col items-center mt-32">
+
+        <h1 class="text-xl">TodoList</h1>
+
+        <div class="flex items-center mt-4">
+            <input type="text" id="newTask" placeholder="NovaTarefa"
+            class="bg-zinc-800 p-2 w-[400px] outline-none rounded-lg" />
+            <button onclick="addTask()" class="pg-sky-600 p-2 rounded-lg ml-2 hover bg-sky-700">Adicionar</button>
+        </div>
+
+        <ul id="tasklist">
+
+        </ul>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
